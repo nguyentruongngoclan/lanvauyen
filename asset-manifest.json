@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lanvauyen/static/css/main.073c9b0a.css",
+    "main.js": "/lanvauyen/static/js/main.176cc57c.js",
+    "index.html": "/lanvauyen/index.html",
+    "main.073c9b0a.css.map": "/lanvauyen/static/css/main.073c9b0a.css.map",
+    "main.176cc57c.js.map": "/lanvauyen/static/js/main.176cc57c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.176cc57c.js"
+  ]
+}
