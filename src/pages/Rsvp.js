@@ -1,6 +1,6 @@
 function Rsvp() {
 	return (
-		<div>rsvp</div>
+		<div>Page này sẽ cho mọi người rsvp thêm extra bạn</div>
 	)
 }
 

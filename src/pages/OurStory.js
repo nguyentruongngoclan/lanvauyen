@@ -1,6 +1,6 @@
 function OurStory() {
 	return (
-		<div>our_story</div>
+		<div>Page này sẽ kể chuyện về cô dâu chú rễ</div>
 	)
 }
 

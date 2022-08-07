@@ -1,6 +1,6 @@
 function Experience() {
 	return (
-		<div>experience</div>
+		<div>Page này sẽ để Agenda của tiệc cưới</div>
 	)
 }
 
