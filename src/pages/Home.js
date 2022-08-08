@@ -1,6 +1,12 @@
+import '../App.css';
+import HeroSection from '../components/HeroSection';
+
 function Home() {
 	return (
-		<div>Tụi mình đang build page mọi người chờ tí nhé :) </div>
+		<>
+			<HeroSection />
+		</>
+		// <div>Tụi mình đang build page mọi người chờ tí nhé :) </div>
 	)
 }
 
