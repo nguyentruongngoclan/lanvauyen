@@ -1,7 +1,14 @@
+import HeroSection from "../components/HeroSection";
+
 function Travel() {
-	return (
-		<div>Page này sẽ nói qua thông tin làm sao để đến được địa điểm và quay về từ TPHCM</div>
-	)
+  return (
+    <>
+      <HeroSection
+        title={"Travel"}
+        description={"Tụi mình đang build page mọi người chờ tí nhé :)"}
+      />
+    </>
+  );
 }
 
-export default Travel
+export default Travel;

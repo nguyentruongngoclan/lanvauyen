@@ -1,7 +1,14 @@
+import HeroSection from "../components/HeroSection";
+
 function OurStory() {
-	return (
-		<div>Page này sẽ kể chuyện về cô dâu chú rễ</div>
-	)
+  return (
+    <>
+      <HeroSection
+        title={"Our story"}
+        description={"Tụi mình đang build page mọi người chờ tí nhé :)"}
+      />
+    </>
+  );
 }
 
-export default OurStory
+export default OurStory;

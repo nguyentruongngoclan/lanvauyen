@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-			<Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+			<Link to='/lanvauyen' className='navbar-logo' onClick={closeMobileMenu}>
 				Lan & Uyen's Wedding					
 			</Link>
       <div className="navbar-container">				

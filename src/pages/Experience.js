@@ -1,7 +1,14 @@
+import HeroSection from "../components/HeroSection";
+
 function Experience() {
-	return (
-		<div>Page này sẽ để Agenda của tiệc cưới</div>
-	)
+  return (
+    <>
+      <HeroSection
+        title={"Experience"}
+        description={"Tụi mình đang build page mọi người chờ tí nhé :)"}
+      />
+    </>
+  );
 }
 
-export default Experience
+export default Experience;

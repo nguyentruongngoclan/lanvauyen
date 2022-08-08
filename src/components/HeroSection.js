@@ -2,10 +2,11 @@ import React from "react";
 import '../App.css';
 import './HeroSection.css';
 
-function HeroSection() {
+const HeroSection = ({title, description}) => {
   return (
     <div className="hero-container">
-      <h1>Tụi mình đang build page mọi người chờ tí nhé :)</h1>
+      <h1>{title}</h1>
+			<p>{description}</p>
     </div>
   );
 }
