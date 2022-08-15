@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/lanvauyen/static/css/main.dd285c28.css",
-    "main.js": "/lanvauyen/static/js/main.04c01f6d.js",
+    "main.css": "/lanvauyen/static/css/main.afa43cb8.css",
+    "main.js": "/lanvauyen/static/js/main.9b93a7fe.js",
     "static/media/image0.jpg": "/lanvauyen/static/media/image0.67d3a7b582b86a0f3631.jpg",
+    "static/media/image1.jpg": "/lanvauyen/static/media/image1.6e16ee0a85bcf59f9e47.jpg",
     "index.html": "/lanvauyen/index.html",
-    "main.dd285c28.css.map": "/lanvauyen/static/css/main.dd285c28.css.map",
-    "main.04c01f6d.js.map": "/lanvauyen/static/js/main.04c01f6d.js.map"
+    "main.afa43cb8.css.map": "/lanvauyen/static/css/main.afa43cb8.css.map",
+    "main.9b93a7fe.js.map": "/lanvauyen/static/js/main.9b93a7fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd285c28.css",
-    "static/js/main.04c01f6d.js"
+    "static/css/main.afa43cb8.css",
+    "static/js/main.9b93a7fe.js"
   ]
 }
