@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
@@ -7,6 +7,10 @@ import SelectionComponent from "../components/SelectionComponent";
 import "./Rsvp.css";
 
 function Rsvp() {
+  useEffect(() => {
+    window.location.href = "https://google.com/contact";
+  }, []);
+
   const [state, setState] = useState({
     firstName: "",
     lastName: "",

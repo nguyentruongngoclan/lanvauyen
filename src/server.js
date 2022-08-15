@@ -9,7 +9,6 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 const routes = require('./backend_routes/api');
 
-console.log(process.env);
 mongoose.connect(process.env.MONGODB_URI, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
