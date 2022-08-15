@@ -7,10 +7,6 @@ import SelectionComponent from "../components/SelectionComponent";
 import "./Rsvp.css";
 
 function Rsvp() {
-  useEffect(() => {
-    window.location.href = "https://google.com/contact";
-  }, []);
-
   const [state, setState] = useState({
     firstName: "",
     lastName: "",
