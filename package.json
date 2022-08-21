@@ -1,8 +1,6 @@
 {
-  "homepage": "https://nguyentruongngoclan.github.io/lanvauyen",
   "name": "lanvauyen",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
@@ -50,9 +48,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   },
   "proxy": "http://localhost:8080/"
 }
