@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const routes = require('./src/backend_routes/api');
+const routes = require('./backend_routes/api');
 
 mongoose.connect(process.env.MONGODB_URI, {
 	useNewUrlParser: true,

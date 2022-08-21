@@ -24,14 +24,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "cd client && npm run build",
+    "predeploy": "npm run build",
+		"start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",    
-    "start": "node server.js",
-    "install-client": "cd client && npm install",
-    "client": "cd client && npm start",
-    "heroku-postbuild": "npm run install-client && npm run build",
-    "dev": "concurrently -n server,client -c red,green \"nodemon server.js\" \"npm run client\""  
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"   
   },
   "eslintConfig": {
     "extends": [
