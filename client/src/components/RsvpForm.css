@@ -1,0 +1,9 @@
+
+.rsvp__wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 4rem auto;
+}

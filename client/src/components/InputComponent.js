@@ -1,7 +1,7 @@
 import React from "react";
 import TextField from '@mui/material/TextField'
 
-function InputComponent({ inputType, name, label, onChange, variant }) {
+function InputComponent({ inputType, name, label, onChange, variant, isInvalid, helperText }) {
   return (
 		<TextField
 			required
@@ -12,6 +12,8 @@ function InputComponent({ inputType, name, label, onChange, variant }) {
 			type={inputType}
 			variant={variant}
 			onChange={onChange}
+			error={isInvalid}
+			helperText={isInvalid ? helperText : null}
 		/>
   );
 }

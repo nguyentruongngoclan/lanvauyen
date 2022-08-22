@@ -29,12 +29,3 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
-
-.rsvp__wrapper {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 4rem auto;
-}
